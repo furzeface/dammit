@@ -33,7 +33,7 @@ Link for local development:
 $ npm link
 ```
 
-Add phrases to `lib/curses.json`
+Add phrases to `src/curses.json`
 
 ## Contributing
 
