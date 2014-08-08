@@ -1,0 +1,8 @@
+# Logging
+*.log
+
+# Installed dependencies
+node_modules
+
+# Project meta
+*.sublime-workspace
