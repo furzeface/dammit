@@ -1,6 +1,6 @@
 {
   "name": "dammit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/dammit.js",
   "description": "Returns a random curse phrase.",
   "homepage": "https://github.com/furzeface/dammit",
