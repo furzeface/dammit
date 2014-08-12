@@ -38,7 +38,6 @@ $ npm link
 Add phrases to `src/curses.json`
 
 ## Contributing
-
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ```
@@ -49,7 +48,8 @@ Commit messages loosely adhere to [these guidelines](https://github.com/angular/
 
 Versioning adheres to [Semver](http://semver.org).
 
-## License
+## Release History
+- 2014-08-14 v0.1.0 - Initial release. 
 
-Copyright (c) 2014 Daniel Furze  
-Licensed under the MIT license.
+## License
+Copyright (c) 2014 Daniel Furze. Licensed under the MIT license: http://danielfurze.mit-license.org
