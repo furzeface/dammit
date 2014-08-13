@@ -1,6 +1,6 @@
 {
   "name": "dammit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "lib/dammit.js",
   "description": "Returns a random curse phrase.",
   "homepage": "https://github.com/furzeface/dammit",
@@ -15,9 +15,6 @@
     "url": "https://github.com/furzeface/dammit"
   },
   "license": "MIT",
-  "files": [
-    "lib"
-  ],
   "keywords": [
     "dammit",
     "dammit",
@@ -45,5 +42,5 @@
   "bin": {
     "dammit": "cli.js"
   },
-  "preferGlobal": "true"
+  "preferGlobal": "false"
 }
