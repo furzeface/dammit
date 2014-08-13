@@ -49,7 +49,11 @@ Commit messages loosely adhere to [these guidelines](https://github.com/angular/
 Versioning adheres to [Semver](http://semver.org).
 
 ## Release History
-- 2014-08-14 v0.1.0 - Initial release. 
+- 2014-08-13 v0.3.0
+- 2014-08-13 v0.2.0 
+- 2014-08-11 v0.1.0 - Initial release. 
+
+Release with [https://github.com/vojtajina/grunt-bump](grunt-bump).
 
 ## License
 Copyright (c) 2014 Daniel Furze. Licensed under the MIT license: http://danielfurze.mit-license.org
