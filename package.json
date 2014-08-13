@@ -1,6 +1,6 @@
 {
   "name": "dammit",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "lib/dammit.js",
   "description": "Returns a random curse phrase.",
   "homepage": "https://github.com/furzeface/dammit",
@@ -29,6 +29,7 @@
     "unique-random": "^0.1.1"
   },
   "devDependencies": {
+    "grunt-bump": "0.0.15",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-nodeunit": "^0.3.3",
     "grunt-contrib-watch": "^0.6.1",
