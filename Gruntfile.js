@@ -17,7 +17,7 @@ module.exports = function (grunt) {
         'package.json'
         ],
         commit: true,
-        commitMessage: 'Release v%VERSION%',
+        commitMessage: 'release(%VERSION%)',
         commitFiles: ['package.json'],
         createTag: true,
         tagName: 'v%VERSION%',
