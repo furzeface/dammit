@@ -26,4 +26,8 @@ if (argv.version) {
 	return;
 }
 
-console.log(dammit());
+if (argv._.indexOf('NSFW') !== -1) {
+	console.log(dammit({'NSFW': true}));
+} else {
+	console.log(dammit({'NSFW': false}));
+}

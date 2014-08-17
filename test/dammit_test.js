@@ -1,36 +1,32 @@
-'use strict';
-
-var dammit = require('../lib/dammit');
-
 /*
-  ======== A Handy Little Nodeunit Reference ========
-  https://github.com/caolan/nodeunit
+ * dammit
+ * https://github.com/furzeface/dammit
+ *
+ * Copyright (c) 2014 Daniel Furze
+ * Licensed under the MIT license.
+ */
 
-  Test methods:
-    test.expect(numAssertions)
-    test.done()
-  Test assertions:
-    test.ok(value, [message])
-    test.equal(actual, expected, [message])
-    test.notEqual(actual, expected, [message])
-    test.deepEqual(actual, expected, [message])
-    test.notDeepEqual(actual, expected, [message])
-    test.strictEqual(actual, expected, [message])
-    test.notStrictEqual(actual, expected, [message])
-    test.throws(block, [error], [message])
-    test.doesNotThrow(block, [error], [message])
-    test.ifError(value)
-*/
+ 'use strict';
 
-exports.dammit = {
+ var dammit = require('../lib/dammit');
+
+ exports.dammit = {
   setUp: function(done) {
-    // setup here
     done();
   },
-  'no args': function(test) {
+  safe: function(test) {
     test.expect(1);
-    // tests here
-    test.ok(dammit().length > 0);
+    var curse = dammit({'NSFW': false});
+    
+    test.ok(curse.length > 0);
+    test.done();
+  },
+  unsafe: function(test) {
+    test.expect(1);
+
+    var curse = dammit({'NSFW': true});
+
+    test.ok(curse.length > 0);
     test.done();
   }
 };
