@@ -1,7 +1,6 @@
-[![Stories in Ready](https://badge.waffle.io/furzeface/dammit.png?label=ready&title=Ready)](https://waffle.io/furzeface/dammit)
-# dammit [![Build Status](https://secure.travis-ci.org/furzeface/dammit.png?branch=master)](http://travis-ci.org/furzeface/dammit)
+# dammit [![Build Status](https://secure.travis-ci.org/furzeface/dammit.png?branch=master)](http://travis-ci.org/furzeface/dammit) [![Stories in Ready](https://badge.waffle.io/furzeface/dammit.png?label=ready&title=Ready)](https://waffle.io/furzeface/dammit)
 
-> Returns a random curse phrase. Use within tasks in failing scenarios.
+> Returns a random curse phrase. Use within tasks in failing scenarios. Go crazy with NSFW mode if you like.
 
 # Currently in development
 
@@ -61,7 +60,7 @@ Versioning adheres to [Semver](http://semver.org).
 - 2014-08-13 v0.2.0 
 - 2014-08-11 v0.1.0 - Initial release. 
 
-Release with [https://github.com/vojtajina/grunt-bump](grunt-bump).
+Release with [grunt-bump](https://github.com/vojtajina/grunt-bump).
 
 ## License
 Copyright (c) 2014 Daniel Furze. Licensed under the MIT license: http://danielfurze.mit-license.org
