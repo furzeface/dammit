@@ -2,8 +2,6 @@
 
 > Returns a random curse phrase. Use within tasks in failing scenarios. Go crazy with NSFW mode if you like.
 
-# Currently in development
-
 ## Getting Started
 
 Install the module with: 
