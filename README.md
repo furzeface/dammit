@@ -55,7 +55,7 @@ Commit messages loosely adhere to [these guidelines](https://github.com/angular/
 Versioning adheres to [Semver](http://semver.org).
 
 ## Release History
-- 2014-08-13 v0.4.0 - Added NSFW Mode.
+- 2014-08-13 v0.5.0 - Added NSFW Mode.
 - 2014-08-13 v0.3.0
 - 2014-08-13 v0.2.0 
 - 2014-08-11 v0.1.0 - Initial release. 
