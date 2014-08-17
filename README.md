@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/furzeface/dammit.png?label=ready&title=Ready)](https://waffle.io/furzeface/dammit)
 # dammit [![Build Status](https://secure.travis-ci.org/furzeface/dammit.png?branch=master)](http://travis-ci.org/furzeface/dammit)
 
 > Returns a random curse phrase. Use within tasks in failing scenarios.
