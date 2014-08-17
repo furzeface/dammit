@@ -20,12 +20,18 @@ $ dammit --help
 $ dammit --version
 ```
 
-## Examples
+Use on the cli (pass in NSFW if you want):
+```sh
+$ dammit
+$ dammit NSFW
+```
 
+## Examples
 ```js
 var dammit = require('dammit');
 
-dammit(); // 'gosh darn it'
+dammit(); // 'Gosh darn it!'
+dammit({'NSFW': true}); // '**** ***'
 ```
 
 ## Development
@@ -35,7 +41,7 @@ Link for local development:
 $ npm link
 ```
 
-Add phrases to `src/curses.json`
+Add phrases to `src/curses.json` or `src/cursesNSFW.json` if you're feeling naughty.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
@@ -49,6 +55,7 @@ Commit messages loosely adhere to [these guidelines](https://github.com/angular/
 Versioning adheres to [Semver](http://semver.org).
 
 ## Release History
+- 2014-08-13 v0.4.0 - Added NSFW Mode.
 - 2014-08-13 v0.3.0
 - 2014-08-13 v0.2.0 
 - 2014-08-11 v0.1.0 - Initial release. 
