@@ -1,4 +1,4 @@
-# dammit [![Build Status](https://secure.travis-ci.org/furzeface/dammit.png?branch=master)](http://travis-ci.org/furzeface/dammit) [![Stories in Ready](https://badge.waffle.io/furzeface/dammit.png?label=ready&title=Ready)](https://waffle.io/furzeface/dammit)
+# dammit [![NPM version](https://badge.fury.io/js/dammit.svg)](http://badge.fury.io/js/dammit)
 
 > Returns a random curse phrase. Use within tasks in failing scenarios. Go crazy with NSFW mode if you like.
 
@@ -41,7 +41,8 @@ $ npm link
 
 Add phrases to `src/curses.json` or `src/cursesNSFW.json` if you're feeling naughty.
 
-## Contributing
+## Contributing [![Build Status](https://secure.travis-ci.org/furzeface/dammit.svg?branch=master)](http://travis-ci.org/furzeface/dammit) [![Stories in Ready](https://badge.waffle.io/furzeface/dammit.svg?label=ready&title=Ready)](https://waffle.io/furzeface/dammit)
+
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ```
