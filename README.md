@@ -32,7 +32,20 @@ dammit(); // 'Gosh darn it!'
 dammit({'NSFW': true}); // '**** ***'
 ```
 
-## Development
+* * *
+
+## Contributing [![Build Status](https://travis-ci.org/furzeface/dammit.svg?branch=master)](https://travis-ci.org/furzeface/dammit) [![Stories in Ready](https://badge.waffle.io/furzeface/dammit.svg?label=ready&title=Ready)](https://waffle.io/furzeface/dammit)
+
+[![dependency Status](https://david-dm.org/furzeface/dammit/status.svg)](https://david-dm.org/furzeface/dammit#info=dependencies)
+[![devDependency Status](https://david-dm.org/furzeface/dammit/dev-status.svg)](https://david-dm.org/furzeface/dammit#info=devDependencies)
+
+###To contribute
+```sh
+$ git clone https://github.com/furzeface/dammit
+$ git checkout develop
+```
+
+### Development
 Link for local development:
 
 ```sh
@@ -40,8 +53,7 @@ $ npm link
 ```
 
 Add phrases to `src/curses.json` or `src/cursesNSFW.json` if you're feeling naughty.
-
-## Contributing [![Build Status](https://secure.travis-ci.org/furzeface/dammit.svg?branch=master)](http://travis-ci.org/furzeface/dammit) [![Stories in Ready](https://badge.waffle.io/furzeface/dammit.svg?label=ready&title=Ready)](https://waffle.io/furzeface/dammit)
+Then check the [Waffle board](https://waffle.io/furzeface/dammit) or [GitHub issues](https://github.com/furzeface/dammit/issues) and work away!
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
@@ -49,9 +61,12 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 $ grunt test
 ```
 
-Commit messages loosely adhere to [these guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit).
+### Tips
+* Install [editorconfig-sublime](https://github.com/sindresorhus/editorconfig-sublime) for Sublime Text to help with consistent code formatting.
+* Commit messages loosely adhere to [these guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit).
+* Versioning adheres to [Semver](http://semver.org).
 
-Versioning adheres to [Semver](http://semver.org).
+* * *
 
 ## Release History
 - 2014-08-13 v0.5.0 - Added NSFW Mode.
