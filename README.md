@@ -41,7 +41,7 @@ dammit({'NSFW': true}); // '**** ***'
 
 ###To contribute
 ```sh
-$ git clone https://github.com/furzeface/dammit
+$ git clone https://github.com/furzeface/dammit && cd dammit
 $ git checkout develop
 ```
 
