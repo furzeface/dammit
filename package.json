@@ -42,6 +42,5 @@
   },
   "bin": {
     "dammit": "cli.js"
-  },
-  "preferGlobal": "true"
+  }
 }
