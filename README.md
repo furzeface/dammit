@@ -1,4 +1,5 @@
-# dammit [![NPM version](https://badge.fury.io/js/dammit.svg)](http://badge.fury.io/js/dammit)
+# dammit
+[![NPM](https://nodei.co/npm/dammit.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dammit/)
 
 > Returns a random curse phrase. Use within tasks in failing scenarios. Go crazy with NSFW mode if you like.
 
